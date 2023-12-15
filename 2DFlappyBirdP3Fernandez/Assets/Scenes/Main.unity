@@ -209,7 +209,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 2, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -494,6 +494,7 @@ GameObject:
   m_Component:
   - component: {fileID: 766473349}
   - component: {fileID: 766473348}
+  - component: {fileID: 766473350}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -532,6 +533,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &766473350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766473347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 014b9c12743713e4aa887d89f59da42d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  columnPoolSize: 5
+  columnsPrefab: {fileID: 2897780353165503066, guid: 59957b52295c382479113e30fb632904, type: 3}
+  spawnRate: 4
+  columnMin: -2
+  columnMax: 2
 --- !u!1 &883428235
 GameObject:
   m_ObjectHideFlags: 0
